@@ -4,8 +4,8 @@ import NavbarBanner from './NavbarBanner/NavbarBanner'
 
 const Navbar = () => {
   return (
-    <div className='flex flex-col border border-solid  w-full '>
-       <NavbarBelt/>
+    <div className='flex flex-col border border-solid  w-full  z-10'>
+       <NavbarBelt className=''/>
        <NavbarBanner/>
     </div>
   )

@@ -27,8 +27,8 @@ const Sidebar = ({isOpen, onClose}) => {
 
 
         <div className="p-4 flex gap-1 bg-[#232f3e]">
-            <AccountCircleIcon sx={{fontSize:'30px'}}/>
-          <h2 className="font-bold text-lg">Hello, Sign in</h2>
+            <AccountCircleIcon sx={{fontSize:'30px', color:'white'}}/>
+          <h2 className="font-bold text-lg max-sm:text-white">Hello, Sign in</h2>
         </div>
         <hr />
 

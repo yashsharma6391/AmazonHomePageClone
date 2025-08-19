@@ -5,7 +5,7 @@ import Footer from '../../Components/Footer/Footer'
 
 const HomeScreen = () => {
   return (
-    <div className='text-black w-full border border-solid '>
+    <div className='flex flex-col text-black w-full border border-solid  gap-10'>
         <HomeBanner/>
         <HomeDetails/>
         <Footer/>

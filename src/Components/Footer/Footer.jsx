@@ -4,12 +4,12 @@ const Footer = () => {
   return (
     <div className='flex bg-[#232F3E] px-12.5 py-5 flex-col items-center text-white'>
         {/* footer content  */}
-        <div className='flex justify-between w-[70%] '>
+        <div className='flex justify-between w-[70%] max-sm:justify-center'>
             {/* footer cont 1 */}
 
-            <div> 
-              <div className='font-semibold'>Get To Know Us</div>
-              <div className='mt-2.5 text-[14px]'>
+            <div className=''> 
+              <div className='font-semibold max-sm:text-[14px]'>Get To Know Us</div>
+              <div className='mt-2.5 text-[14px] max-sm:text-[10px]'>
                 
                 <div className='mb-2.5'>About Us</div>
                 <div className='mb-2.5'>Careers</div>
